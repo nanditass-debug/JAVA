@@ -23,36 +23,36 @@ public class Ex_1 {
         System.out.println("percentage" + percentage + "%" );
 
 //        Question 2(calculate cgpa of three subject)
-        Scanner Tae = new Scanner(System.in);
+        Scanner ace = new Scanner(System.in);
         System.out.println("Enter Marks of 1st subject : ");
-        float a = Tae.nextFloat();
+        float d = ace.nextFloat();
         System.out.println("Enter Marks of 2nd subject : ");
-        float b = Tae.nextFloat();
+        float e = ace.nextFloat();
         System.out.println("Enter Marks of 3rd subject : ");
-        float c = Tae.nextFloat();
-        float obtainedMarks = a + b + c;
+        float f = ace.nextFloat();
+        float obtainedMarks = d + e + f;
         System.out.println("Obtained_Marks : " + obtainedMarks );
         float cgpa = obtainedMarks/30;
         System.out.println("CGPA : " + cgpa );
 
 //        Question 3(km to miles)
-        Scanner Tae = new Scanner(System.in);
+        Scanner tae = new Scanner(System.in);
         System.out.println("Enter Distance in KM :");
-        double a = Tae.nextFloat();
-        double miles = a * 0.621371;
+        double g = tae.nextFloat();
+        double miles = g * 0.621371;
         System.out.println("Miles = " + miles );
 
 //        Question 4(take name as input from user and greet with that name)
-        Scanner Tae = new Scanner(System.in);
+        Scanner Ace = new Scanner(System.in);
         System.out.println( "Enter the name : ");
-        String str = Tae.nextLine();
+        String str = Ace.nextLine();
         System.out.println("Hello " + str + " , have a good day.");
 
 //        Question 5(detect whether the no. is int or not)
-        Scanner Tae = new Scanner(System.in);
+        Scanner V = new Scanner(System.in);
         System.out.println("Enter the Number : ");
-        boolean a = Tae.hasNextInt();
-        System.out.println(a);
+        boolean h = V.hasNextInt();
+        System.out.println(h);
 
     }
 }
