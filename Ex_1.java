@@ -13,7 +13,6 @@ public class Ex_1 {
         float d = Tae.nextFloat();
         System.out.println("Enter marks of 5th subject : ");
         float e = Tae.nextFloat();
-
         System.out.println("obtainedMarks : ");
         float obtainedMarks = a+b+c+d+e;
         System.out.println(obtainedMarks);
@@ -25,12 +24,12 @@ public class Ex_1 {
 //        Question 2(calculate cgpa of three subject)
         Scanner ace = new Scanner(System.in);
         System.out.println("Enter Marks of 1st subject : ");
-        float d = ace.nextFloat();
+        float x = ace.nextFloat();
         System.out.println("Enter Marks of 2nd subject : ");
-        float e = ace.nextFloat();
+        float y = ace.nextFloat();
         System.out.println("Enter Marks of 3rd subject : ");
-        float f = ace.nextFloat();
-        float obtainedMarks = d + e + f;
+        float z = ace.nextFloat();
+        float obtainedMark = x + y + z;
         System.out.println("Obtained_Marks : " + obtainedMarks );
         float cgpa = obtainedMarks/30;
         System.out.println("CGPA : " + cgpa );
